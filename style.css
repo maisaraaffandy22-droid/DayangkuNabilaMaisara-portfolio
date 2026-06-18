@@ -838,3 +838,41 @@ footer{
 
     border-color:var(--gold);
 }
+.cert-gallery{
+    display:grid;
+    grid-template-columns:
+    repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+}
+
+.cert-card{
+
+    background:rgba(255,255,255,.04);
+
+    border:1px solid rgba(212,175,55,.15);
+
+    border-radius:25px;
+
+    overflow:hidden;
+
+    transition:.4s;
+}
+
+.cert-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#D4AF37;
+}
+
+.cert-card h3{
+
+    padding:20px 20px 5px;
+
+    color:#D4AF37;
+}
+
+.cert-card p{
+
+    padding:0 20px 20px;
+}
